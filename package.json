@@ -4,7 +4,7 @@
   "main": "index.js",
   
     "scripts": {
-  "test": "cucumber-js",
+  "test": "npx cucumber-js",
   "smoke": "cucumber-js --tags \"@smoke\"",
   "regression": "cucumber-js --tags \"@regression\"",
   "login": "cucumber-js --tags \"@login\"",
