@@ -1,0 +1,275 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "add-a-product-to-cart;login-as-a-user-and-add-a-product-to-cart",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Login as a user and add a product to cart",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 639071799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "user navigate to url",
+            "match": {
+              "location": "step-definitions\\loginSteps.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1449585499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "user logs in to demoblaze",
+            "match": {
+              "location": "step-definitions\\loginSteps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2401424100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "user select a product",
+            "match": {
+              "location": "step-definitions\\addProductSteps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1990556700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "user click on add to cart",
+            "match": {
+              "location": "step-definitions\\addProductSteps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1424987200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "user should see a message",
+            "match": {
+              "location": "step-definitions\\addProductSteps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1246100
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 349421900
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 2
+          },
+          {
+            "name": "@cart",
+            "line": 2
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "add-a-product-to-cart",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Add a product to cart",
+    "tags": [],
+    "uri": "features\\addProduct.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": ":login-functionality;:valid-login",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": ":Valid Login",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 558436100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "user navigate to url",
+            "match": {
+              "location": "step-definitions\\loginSteps.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1641214200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "user logs in to demoblaze",
+            "match": {
+              "location": "step-definitions\\loginSteps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3086449100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "user should see user name",
+            "match": {
+              "location": "step-definitions\\loginSteps.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1307043499
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 468788100
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login",
+            "line": 2
+          },
+          {
+            "name": "@smoke",
+            "line": 2
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": ":login-functionality;invalid-login",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Invalid login",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 601820500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 13,
+            "name": "user navigate to url",
+            "match": {
+              "location": "step-definitions\\loginSteps.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1341666999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "user login with invalid credentials",
+            "match": {
+              "location": "step-definitions\\loginSteps.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 688446100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "user should see an error message",
+            "match": {
+              "location": "step-definitions\\loginSteps.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 856700
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 516950400
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login",
+            "line": 9
+          },
+          {
+            "name": "@regression",
+            "line": 9
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": ":login-functionality",
+    "line": 1,
+    "keyword": "Feature",
+    "name": ":Login functionality",
+    "tags": [],
+    "uri": "features\\login.feature"
+  }
+]

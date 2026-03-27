@@ -1,0 +1,16 @@
+{
+    "demoBlaze":
+    {
+        "validUser":{
+            "username":"AbhijithJu",
+            "password":"Passvp@100"
+
+        },
+         "invalidUser": {
+      "username": "wrongUser",
+      "password": "wrongPass"
+    },
+    "product":"Nexus 6"
+        
+}
+}
