@@ -20,12 +20,18 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Install Playwright browsers
-        run: node node_modules/playwright/install.js
       
+      - name: Fix permissions
+        run: chmod +x ./node_modules/.bin/*
 
+     
+      - name: Install Playwright Browsers
+        run: npx playwright install chromium
+
+      
       - name: Run tests
-        run: npm run test
+        run: npx cucumber-js
 
+      
       - name: Generate report
         run: npm run report
