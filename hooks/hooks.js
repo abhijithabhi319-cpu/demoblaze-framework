@@ -3,7 +3,7 @@ const { chromium } = require('playwright')
 
 Before(async function(){
 
-    this.browser=await chromium.launch({headless:false});
+    this.browser=await chromium.launch({headless:true});
     this.page=await this.browser.newPage();
 })
 
