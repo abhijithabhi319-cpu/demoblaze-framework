@@ -3,15 +3,13 @@ const LoginPage = require('../pages/LoginPage')
 const data=require("../test-data/testData.json")
 const{expect}=require('playwright/test')
 
-
-Given('user navigate to url',{timeout:20000},async function(){
-    await this.page.goto('https://www.demoblaze.com/index.html',)
-}
-)
+Given('user navigate to url',async function(){
+    await this.page.goto('https://www.demoblaze.com/index.html',{waitUntil:'domcontentloaded'})
+})
 When('user logs in to demoblaze',async function()
 {
 const loginpage=new LoginPage(this.page)
-await loginpage.login('AbhijithJu','Passvp@100')
+
 await loginpage.login(data.demoBlaze.validUser.username,data.demoBlaze.validUser.password)
 })
 Then('user should see user name',async function(){

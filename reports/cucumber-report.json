@@ -14,72 +14,72 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 639071799
+              "duration": 225958999
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 7,
+            "line": 5,
             "name": "user navigate to url",
             "match": {
-              "location": "step-definitions\\loginSteps.js:7"
+              "location": "step-definitions\\loginSteps.js:6"
             },
             "result": {
               "status": "passed",
-              "duration": 1449585499
+              "duration": 8766388999
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 8,
+            "line": 6,
             "name": "user logs in to demoblaze",
             "match": {
-              "location": "step-definitions\\loginSteps.js:11"
+              "location": "step-definitions\\loginSteps.js:9"
             },
             "result": {
               "status": "passed",
-              "duration": 2401424100
+              "duration": 645031700
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 9,
+            "line": 7,
             "name": "user select a product",
             "match": {
-              "location": "step-definitions\\addProductSteps.js:6"
+              "location": "step-definitions\\addProductSteps.js:7"
             },
             "result": {
               "status": "passed",
-              "duration": 1990556700
+              "duration": 2877199300
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 10,
+            "line": 8,
             "name": "user click on add to cart",
             "match": {
-              "location": "step-definitions\\addProductSteps.js:10"
+              "location": "step-definitions\\addProductSteps.js:11"
             },
             "result": {
               "status": "passed",
-              "duration": 1424987200
+              "duration": 1956449099
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 11,
+            "line": 9,
             "name": "user should see a message",
             "match": {
-              "location": "step-definitions\\addProductSteps.js:15"
+              "location": "step-definitions\\addProductSteps.js:16"
             },
             "result": {
               "status": "passed",
-              "duration": 1246100
+              "duration": 532100
             }
           },
           {
@@ -87,7 +87,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 349421900
+              "duration": 92526900
             }
           }
         ],
@@ -126,46 +126,46 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 558436100
+              "duration": 211501899
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 5,
+            "line": 4,
             "name": "user navigate to url",
             "match": {
-              "location": "step-definitions\\loginSteps.js:7"
+              "location": "step-definitions\\loginSteps.js:6"
             },
             "result": {
               "status": "passed",
-              "duration": 1641214200
+              "duration": 1401636500
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 6,
+            "line": 5,
             "name": "user logs in to demoblaze",
             "match": {
-              "location": "step-definitions\\loginSteps.js:11"
+              "location": "step-definitions\\loginSteps.js:9"
             },
             "result": {
               "status": "passed",
-              "duration": 3086449100
+              "duration": 588038799
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 7,
+            "line": 6,
             "name": "user should see user name",
             "match": {
-              "location": "step-definitions\\loginSteps.js:17"
+              "location": "step-definitions\\loginSteps.js:15"
             },
             "result": {
               "status": "passed",
-              "duration": 1307043499
+              "duration": 2161626599
             }
           },
           {
@@ -173,7 +173,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 468788100
+              "duration": 141716400
             }
           }
         ],
@@ -193,7 +193,7 @@
         "description": "",
         "id": ":login-functionality;invalid-login",
         "keyword": "Scenario",
-        "line": 10,
+        "line": 9,
         "name": "Invalid login",
         "steps": [
           {
@@ -201,46 +201,46 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 601820500
+              "duration": 204505600
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 13,
+            "line": 10,
             "name": "user navigate to url",
             "match": {
-              "location": "step-definitions\\loginSteps.js:7"
+              "location": "step-definitions\\loginSteps.js:6"
             },
             "result": {
               "status": "passed",
-              "duration": 1341666999
+              "duration": 941039999
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 14,
+            "line": 11,
             "name": "user login with invalid credentials",
             "match": {
-              "location": "step-definitions\\loginSteps.js:22"
+              "location": "step-definitions\\loginSteps.js:20"
             },
             "result": {
               "status": "passed",
-              "duration": 688446100
+              "duration": 653693600
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 15,
+            "line": 12,
             "name": "user should see an error message",
             "match": {
-              "location": "step-definitions\\loginSteps.js:27"
+              "location": "step-definitions\\loginSteps.js:25"
             },
             "result": {
               "status": "passed",
-              "duration": 856700
+              "duration": 440299
             }
           },
           {
@@ -248,18 +248,18 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 516950400
+              "duration": 74140100
             }
           }
         ],
         "tags": [
           {
             "name": "@login",
-            "line": 9
+            "line": 8
           },
           {
             "name": "@regression",
-            "line": 9
+            "line": 8
           }
         ],
         "type": "scenario"
@@ -271,5 +271,108 @@
     "name": ":Login functionality",
     "tags": [],
     "uri": "features\\login.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "checkout;to-purchase-the-product",
+        "keyword": "Scenario",
+        "line": 2,
+        "name": "To purchase the product",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 197270400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "user navigate to url",
+            "match": {
+              "location": "step-definitions\\loginSteps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1026291999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "user logs in to demoblaze",
+            "match": {
+              "location": "step-definitions\\loginSteps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 650299800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "user select a product",
+            "match": {
+              "location": "step-definitions\\addProductSteps.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2230556199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "user purchase the product",
+            "match": {
+              "location": "step-definitions\\purchaseSteps.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1375547300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "user should see purchase text",
+            "match": {
+              "location": "step-definitions\\purchaseSteps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11229800
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 106686999
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "checkout",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Checkout",
+    "tags": [],
+    "uri": "features\\purchase.feature"
   }
 ]

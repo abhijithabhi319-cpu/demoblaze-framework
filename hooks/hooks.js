@@ -1,10 +1,12 @@
-const{Before,After}=require('@cucumber/cucumber')
+const{Before,After, setDefaultTimeout}=require('@cucumber/cucumber')
 const { chromium } = require('playwright')
+setDefaultTimeout(30000);
 
 Before(async function(){
 
     this.browser=await chromium.launch({headless:true});
     this.page=await this.browser.newPage();
+    
 })
 
 After(async function(scenario)

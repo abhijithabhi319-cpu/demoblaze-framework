@@ -3,6 +3,7 @@ const AddProductPage=require('../pages/AddProductPage.js')
 const LoginPage=require('../pages/LoginPage.js')
 
 
+
 When('user select a product',async function(){
     const addproduct=new AddProductPage(this.page);
     await addproduct.addProduct();
